@@ -10,7 +10,6 @@ import StatCardsSection from "./StatCardsSection";
 import styles from "./HomePage.module.css";
 
 import CenteredArrowBand from "./CenteredArrowBand";
-import { BiCheckCircle } from "react-icons/bi";
 import CardsListWithDesc from "./CardsListWithDesc";
 
 const HomePage = () => {

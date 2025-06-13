@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 import DropwDownButton from "./common/DropdownButton";
 import styles from "./Navbar.module.css";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
       <div
         className={`flex justify-between items-center gap-8 py-2 ps-20 pe-2 rounded-2xl ${styles.navbarContent}`}
       >
-        <a href="/" className="logo-part flex items-center">
+        <Link href="/" className="logo-part flex items-center">
           <Image
             src="/logo-with-text.png"
             alt="Simbian AI Logo"
@@ -22,21 +23,21 @@ const Navbar = () => {
             className="cursor-pointer"
             onClick={() => (window.location.href = "/")}
           />
-        </a>
+        </Link>
 
         <div className="navlinks flex gap-2">
-          <a href="/">
+          <Link href="/">
             <DropwDownButton text="Products" />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <DropwDownButton text="Company" />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <DropwDownButton text="Resources" />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <span>Blog</span>
-          </a>
+          </Link>
         </div>
 
         <motion.div

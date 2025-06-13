@@ -9,14 +9,14 @@ import { motion } from "framer-motion";
 import styles from "./HomePage.module.css";
 
 const iconsStack = [
-  <BsGrid3X2GapFill />,
-  <GiHummingbird />,
-  <FaCubes />,
-  <FaConnectdevelop />,
-  <BsGrid3X2GapFill />,
-  <GiHummingbird />,
-  <FaCubes />,
-  <FaConnectdevelop />,
+  <BsGrid3X2GapFill key={1} />,
+  <GiHummingbird key={2} />,
+  <FaCubes key={3} />,
+  <FaConnectdevelop key={4} />,
+  <BsGrid3X2GapFill key={5} />,
+  <GiHummingbird key={6} />,
+  <FaCubes key={7} />,
+  <FaConnectdevelop key={8} />,
 ];
 
 const cardsData = [
