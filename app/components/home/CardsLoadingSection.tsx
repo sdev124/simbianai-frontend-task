@@ -52,7 +52,7 @@ const CardsLoadingSection = () => {
               </div>
               <div className="absolute w-[507px] left-[100%] top-[50%] translate-y-[-50%] -ms-3">
                 <Image
-                  src="/assets/blueArrow.png"
+                  src="/elements/blueArrow.png"
                   alt=""
                   width="200"
                   height="200"
