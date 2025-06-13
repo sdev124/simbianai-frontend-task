@@ -1,0 +1,22 @@
+.container{
+  width: 100%;
+  filter: url('#flt_tag');
+}
+
+.container a{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbarContent{
+  background-color: rgb(20,23,32);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 6% 100%);
+  border-radius: 16px;
+}
+
+.flt_svg {
+    visibility: hidden; 
+    position: absolute;
+    width: 0px;
+    height: 0px;
+}

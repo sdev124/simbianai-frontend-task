@@ -1,0 +1,41 @@
+html {
+  --color-headings: #333;
+  --color-text: #999;
+  --distance: 4rem;
+}
+
+.mainLeft {
+  padding: 100px 28px 0px 100px;
+}
+
+.cards {
+  background-color: #242b44;
+  padding: 0px 15px;
+}
+
+.threatCards {
+  background-color: rgba(209, 15, 15, 0.082);
+}
+
+.card {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+
+.card:not(:first-child) {
+  margin-left: calc(var(--distance) * -0.3);
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translatey(-1rem);
+}
+
+@media (max-width: 1023px) {
+  .mainLeft {
+    padding: 20px 28px 0px 20px;
+  }
+  .stateCardsSection {
+    transform: none !important;
+  }
+}
