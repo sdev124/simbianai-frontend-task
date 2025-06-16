@@ -19,7 +19,7 @@ const HomePage = () => {
         <motion.div
           initial={{ opacity: 1 }}
           animate={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1.5, ease: "easeOut" }}
+          transition={{ delay: 6, duration: 1.5, ease: "easeOut" }}
         >
           <CardsLoadingSection />
           <CardsListSection />
@@ -28,7 +28,7 @@ const HomePage = () => {
           className={`${styles.stateCardsSection} pb-28  sm:pb-0 md:pb-28`}
           initial={{ y: 0, opacity: 0 }}
           animate={{ y: "-70vh", opacity: 1 }}
-          transition={{ delay: 3, duration: 1.5, ease: "easeOut" }}
+          transition={{ delay: 6, duration: 1.5, ease: "easeOut" }}
         >
           <h2 className="text-5xl max-xs:bg-red-500 font-bold text-white font-poppins sm:text-2xl md:text-5xl ">
             With Simbian
@@ -43,7 +43,7 @@ const HomePage = () => {
       <motion.div
         initial={{ x: 0 }}
         animate={{ x: "-10vw" }}
-        transition={{ delay: 3, duration: 1.5, ease: "easeOut" }}
+        transition={{ delay: 6, duration: 1.5, ease: "easeOut" }}
         className={styles.stateCardsSection}
       >
         <CenteredArrowBand />
@@ -56,7 +56,7 @@ const HomePage = () => {
           className="text-end pb-28"
           initial={{ y: 0, opacity: 1 }}
           animate={{ y: "-50vh", opacity: 0 }}
-          transition={{ delay: 3, duration: 1.5, ease: "easeOut" }}
+          transition={{ delay: 6, duration: 1.5, ease: "easeOut" }}
         >
           <h2 className="text-5xl font-bold text-[#3755ff] font-poppins">
             Without Simbian
@@ -82,7 +82,7 @@ const HomePage = () => {
         <motion.div
           initial={{ x: 0, y: 30 }}
           animate={{ x: "-55vw" }}
-          transition={{ delay: 3, duration: 1.5, ease: "easeOut" }}
+          transition={{ delay: 6, duration: 1.5, ease: "easeOut" }}
           className={styles.stateCardsSection}
         >
           <StatCardsSection />

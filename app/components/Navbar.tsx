@@ -44,7 +44,7 @@ const Navbar = () => {
           className="flex items-center gap-2 py-4 px-10 rounded-xl"
           initial={{ backgroundColor: "rgb(18,16,18)" }}
           animate={{ backgroundColor: "#ffffff" }}
-          transition={{ delay: 3, duration: 2, ease: "easeInOut" }}
+          transition={{ delay: 6, duration: 2, ease: "easeInOut" }}
           style={{
             fontWeight: "bold",
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 15% 100%)",
@@ -54,7 +54,7 @@ const Navbar = () => {
           <motion.span
             initial={{ color: "white" }}
             animate={{ color: "black" }}
-            transition={{ delay: 3, duration: 2, ease: "easeInOut" }}
+            transition={{ delay: 6, duration: 2, ease: "easeInOut" }}
           >
             Book a demo
           </motion.span>

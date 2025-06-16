@@ -24,7 +24,9 @@ const CardsLoadingSection = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % cardMessages.length);
+      setCurrentIndex((prev) => {
+        return (prev + 1) % cardMessages.length;
+      });
     }, 3000);
     return () => clearInterval(interval);
   }, []);
@@ -45,9 +47,11 @@ const CardsLoadingSection = () => {
                 <LuCircleHelp className="text-3xl" />
               </div>
               <div>
-                <h3 className="font-bold text-xl">Asking ChatGpt</h3>
+                <h3 className="font-bold text-xl">
+                  {cardMessages[currentIndex].title}
+                </h3>
                 <p className="text-[#878e9f]">
-                  What does this PowerShell command even mean ?
+                  {cardMessages[currentIndex].description}
                 </p>
               </div>
               <div className="absolute w-[507px] left-[100%] top-[50%] translate-y-[-50%] -ms-3">

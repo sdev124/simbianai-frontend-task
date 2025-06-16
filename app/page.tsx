@@ -10,7 +10,7 @@ export default function Home() {
       className="h-screen lg:overflow-hidden flex flex-col sm:overflow-auto"
       initial={{ backgroundColor: "rgb(14,23,49, 0.8)" }}
       animate={{ backgroundColor: "rgb(60,92,237, 0.8)" }}
-      transition={{ delay: 3, duration: 1.5, ease: "easeInOut" }}
+      transition={{ delay: 6, duration: 1.5, ease: "easeInOut" }}
     >
       <Navbar />
       <div className="flex flex-1">

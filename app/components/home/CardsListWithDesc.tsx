@@ -34,7 +34,7 @@ const CardsListWithDesc = () => {
       <motion.div
         initial={{ x: "-6vw", y: 0, opacity: 0 }}
         animate={{ y: "-58vh", opacity: 1 }}
-        transition={{ delay: 3, duration: 1.5, ease: "easeOut" }}
+        transition={{ delay: 6, duration: 1.5, ease: "easeOut" }}
         className={styles.stateCardsSection}
       >
         <div className="relative mt-20">
@@ -58,7 +58,7 @@ const CardsListWithDesc = () => {
 
         initial={{ x: "-6vw", y: 0, opacity: 0 }}
         animate={{ y: "-114vh", opacity: 1 }}
-        transition={{ delay: 3.5, duration: 1.5, ease: "easeOut" }}
+        transition={{ delay: 6.5, duration: 1.5, ease: "easeOut" }}
       >
 
         <div className="absolute w-[160px] right-[98%] top-[50%] translate-y-[-50%] -ms-3 sm:hidden md:hidden lg:block">
